@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<script type="text/javascript">
+var amount=20000;
+var pin= prompt ("Enter your pin");
+
+
+if(pin==1994){
+	alert("WELCOME TO OUR BANK");
+
+var action= prompt("WHAT DO YOU WANT FROM US")
+if(action=="withdraw"){
+	prompt("Enter Account Number")
+	
+    alert("Acceped click ok to continure")
+	var p=prompt("Enter the amount you want to withdraw")
+    var balance=amount-p;
+	if(p<=amount){
+		alert("take your cash" + "your account have been debitede with" + p)
+        alert("your account balance is" + balance)
+		}else{
+			alert("insofficient fund")
+			}
+    } else{
+       alert ("this platform is for withdrawal only")
+    }
+    }
+else{ alert("INCORRECT PASSWORD CHECK YOUR PIN AND TRY AGAIN")
+}
+	
+
+
+
+
+</script>
+
+<body>
+</body>
+</html>

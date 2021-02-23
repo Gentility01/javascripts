@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jobform</title>
+</head>
+<script type="text/javascript">
+	alert("PLEASE FILL IN THE FORM CORRECTLY.");
+var surName = prompt("ENTER YOUR SURNAME").toUpperCase();
+
+console.log("applicant surname: " + surName)
+var otherNames= prompt("ENTER YOUR OTHER NAMES");
+console.log("applicants other names: " + otherNames);
+
+var phoneNumber = prompt("ENTER YOUR PHONE NUMBER HERE OR EMAIL ADRESS HERE")
+console.log("applicants phonenumber or email adress: " + phoneNumber);
+
+alert("Dear "+surName +" your details are submitted please press OK to continure");
+var educationLevel = prompt("WHAT IS YOUR LEVEL OF EDUCATION? please press 1 for O level 2 for OND 3 for graduate");
+
+if (educationLevel==3) {
+	alert("CONGRATULATIONS "+surName + " PLEASE WE WILL CALL YOU FOR INTERVIEW ANY TIME");
+	console.log(surName + otherNames + " is qualified");
+
+	
+}else{
+
+	alert("PLEASE ONLY GRADUATES ARE NEEDED HERE press OK to go to the next level")
+}
+if (educationLevel==2) {
+	alert("OND HOLDERS ARE ALSO TO WAIT FOR INTERVIEW");
+	console.warn(surName + " is an OND holder")
+}
+</script>
+<body>
+
+</body>
+</html>
